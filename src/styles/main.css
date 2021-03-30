@@ -1,0 +1,28 @@
+.card {
+    background: #fff;
+    width: 400px;
+    height: 200px;
+    margin: -45px auto;
+
+    border-radius: 40px;
+    box-shadow: 0px 3px 5px 0px #ccc;
+}
+
+.input-box {
+    border-radius: 2rem;
+    background: #eee;
+    outline: none;
+    border: 0px solid;
+    letter-spacing: 0.3rem;
+}
+
+.input-box::placeholder {
+    letter-spacing: 0rem;
+}
+
+@media (max-width: 700px) {
+    .card {
+        width: 300px;
+        height: 200px;
+    }
+}
